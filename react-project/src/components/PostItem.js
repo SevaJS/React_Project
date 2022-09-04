@@ -9,7 +9,11 @@ const PostItem = (props) => {
                     <strong>{props.number}.{props.post.title}</strong>
                     <div>{props.post.body}</div>
                 </div>
-                <MyButton>Удалить</MyButton>
+                <MyButton onClick={() => {
+                    props.remove(props.post)
+                }}>
+                    Удалить
+                </MyButton>
             </div>
 
         </div>

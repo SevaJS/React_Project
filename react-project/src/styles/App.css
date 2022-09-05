@@ -24,3 +24,23 @@
     padding: 15px;
     margin-top: 15px;
 }
+
+.post-enter {
+    transform: translateX(-350px);
+}
+
+.post-enter-active {
+    opacity: 1;
+    transform: translateX(0px);
+    transition: all 500ms ease-in;
+}
+
+.post-exit {
+    opacity: 1;
+}
+
+.post-exit-active {
+
+    transform: translateX(-100%);
+    transition: all 500ms ease-in;
+}

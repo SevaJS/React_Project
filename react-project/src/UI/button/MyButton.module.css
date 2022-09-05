@@ -1,5 +1,6 @@
 .myBtn {
 
+    min-width: 200px;
     border-color: aquamarine;
     border-style: solid;
     border-radius: 15px;
